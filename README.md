@@ -32,27 +32,28 @@ It analyzes SHL’s assessment catalog and matches it with user queries using te
 
 shl-assessment-recommendation-system/
 ├── api/ # FastAPI service (optional)
-
 ├── crawler/ # SHL catalog scraping script
-
 ├── data/ # Dataset and preprocessing scripts
-
 ├── recommender/ # Recommendation logic
-
 ├── requirements.txt # Python dependencies
-
 ├── README.md
 
 ## How to Run the Project
 
 ### 1. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 2. Convert Excel Dataset to CSV
+```bash
 python3 data/convert_excel.py
+```
 
 ### 3. Run Recommendation Engine
+```bash
 python3 recommender/recommend.py
+```
 
 ## Sample Query
 python data science entry level
@@ -65,13 +66,11 @@ python data science entry level
 - FastAPI
 
 
-## Notes
-- Frontend is not implemented as the focus is on recommendation logic
-- API layer is optional and provided for extensibility
-- Errors during scraping are documented and handled gracefully
+## Frontend (Demo UI)
+A minimal Streamlit-based frontend is provided to demonstrate interactive querying of the assessment recommendation engine.
+The UI allows users to enter skill or job-role queries and view recommended assessments with clickable URLs.
 
-
-## Future Enhancements
-- Add frontend UI
-- Improve ranking with embeddings
-- Deploy API to cloud
+### Run Frontend Locally
+```bash
+streamlit run app.py
+```
