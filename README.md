@@ -31,11 +31,16 @@ It analyzes SHL’s assessment catalog and matches it with user queries using te
 
 
 shl-assessment-recommendation-system/
-├── api/ # FastAPI service (optional)
-├── crawler/ # SHL catalog scraping script
-├── data/ # Dataset and preprocessing scripts
-├── recommender/ # Recommendation logic
-├── requirements.txt # Python dependencies
+├── api/ - FastAPI service (optional)
+
+├── crawler/ - SHL catalog scraping script
+
+├── data/ - Dataset and preprocessing scripts
+
+├── recommender/ - Recommendation logic
+
+├── requirements.txt - Python dependencies
+
 ├── README.md
 
 ## How to Run the Project
@@ -66,7 +71,7 @@ python data science entry level
 - FastAPI
 
 
-## Frontend (Demo UI)
+## Frontend 
 A minimal Streamlit-based frontend is provided to demonstrate interactive querying of the assessment recommendation engine.
 The UI allows users to enter skill or job-role queries and view recommended assessments with clickable URLs.
 
