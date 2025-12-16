@@ -32,10 +32,15 @@ It analyzes SHL’s assessment catalog and matches it with user queries using te
 
 shl-assessment-recommendation-system/
 ├── api/ # FastAPI service (optional)
+
 ├── crawler/ # SHL catalog scraping script
+
 ├── data/ # Dataset and preprocessing scripts
+
 ├── recommender/ # Recommendation logic
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md
 
 ## How to Run the Project
