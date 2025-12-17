@@ -61,7 +61,9 @@ python3 recommender/recommend.py
 ```
 
 ## Sample Query
+```bash
 python data science entry level
+```
 
 
 ## Technologies Used
@@ -79,3 +81,10 @@ The UI allows users to enter skill or job-role queries and view recommended asse
 ```bash
 streamlit run app.py
 ```
+
+
+### WEB APPLICATION URL
+```bash
+https://github.com/addaladevisrihasini/shl-assessment-recommendation-system
+```
+
